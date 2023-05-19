@@ -1,6 +1,9 @@
-import termcolor
+#import termcolor
+def C (text,color):
+    return text
+
 while True :
-    C = termcolor.colored
+#    C = termcolor.colored
     a = float(input ("ghad be meter:  "))
     b = float(input ("vaznbe kg:  "))
     c = a ** 2
